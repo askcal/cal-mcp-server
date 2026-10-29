@@ -1,7 +1,7 @@
 {
   "name": "@askcal/mcp-server",
   "version": "0.2.0",
-  "description": "MCP server for Cal — the AI mortgage platform at askcal.io. Exposes Cal's lender library, DPA programs, lender intel, ValueGuard valuations, and authoritative loan-limit / fee facts to any MCP-compatible client (Claude Desktop, Cursor, Continue, Goose, Zed). The first mortgage MCP server with a real lender data moat: 166 wholesale lenders, 1,400+ indexed documents, 250+ DPA programs, all 50 states.",
+  "description": "MCP server for Cal, the AI mortgage platform at askcal.io. Exposes Cal's wholesale lender library, DPA programs, lender intel, ValueGuard valuations, and loan-limit and fee facts to any MCP-compatible client (Claude Desktop, Cursor, Continue, Goose, Zed). Live library figures: askcal.io/status.",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
