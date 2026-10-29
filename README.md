@@ -1,6 +1,8 @@
 # Cal MCP Server
 
-> The mortgage MCP server, with a real lender data moat. **166+ wholesale lenders · 1,400+ indexed program documents · 250+ down‑payment‑assistance programs · 50 states.** First Model Context Protocol server in the mortgage industry with broker‑accessible matrix data behind it — not a calculator, not a rate scraper.
+> The mortgage MCP server, backed by Cal's curated wholesale lender library and down payment assistance programs in all 50 states. Answers carry the source and, where the document states one, the effective date. Live library and accuracy figures: [askcal.io/status](https://askcal.io/status).
+>
+> Access is in private beta: [api.askcal.io/mcp.html](https://api.askcal.io/mcp.html).
 
 `@askcal/mcp-server` exposes Cal — the AI mortgage platform at [askcal.io](https://askcal.io) — to any [Model Context Protocol](https://modelcontextprotocol.io) client: Claude Desktop, Cursor, Continue, Goose, Zed, Cody, your own agent. Loan officers, brokers, real‑estate agents, and consumer borrowers can ask their AI assistant questions like:
 
@@ -138,7 +140,7 @@ If you don't, check:
 
 ## Data scope
 
-Calls are scoped to the *list* tied to your token. If you're a broker LO with a curated approved‑lender list, results are filtered to lenders you can actually use. Cal will not leak across approved lists. The founder's demo list is the broadest, at 166 lenders.
+Calls are scoped to the *list* tied to your token. If you're a broker LO with a curated approved‑lender list, results are filtered to lenders you can actually use. Cal will not leak across approved lists.
 
 ## License
 
@@ -146,10 +148,7 @@ MIT. The wrapper code is open. Cal's curated lender library, DPA program data, a
 
 ## About Cal
 
-Cal is the AI mortgage platform at [askcal.io](https://askcal.io), built by a 17‑year industry veteran (NMLS 275073) for working brokers. Production state at this release:
-
-- 166 wholesale lenders, 1,424 indexed program documents, 250 DPA programs, 50 states
-- 4 LOs in pilot, 342 questions answered in the first 24 hours of soft‑launch
+Cal is the AI mortgage platform at [askcal.io](https://askcal.io), built for independent brokers by Chris Black, a loan officer originating since 2009 (NMLS 275073). Library size and the nightly accuracy benchmark change every week, so they are published live at [askcal.io/status](https://askcal.io/status) rather than here.
 
 ## Roadmap
 
